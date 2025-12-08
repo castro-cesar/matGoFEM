@@ -68,27 +68,6 @@ The repository is organised as follows:
 
 ---
 
-## What matGoFEM does (and does not) do
-
-**matGoFEM _does_:**
-
-- Read and work with GoFEM meshes / model files (e.g. VTU outputs).
-- Provide utilities to:
-  - Interpolate models onto regular grids,
-  - Extract and plot 2-D/3-D resistivity cross-sections,
-  - Build isosurfaces and simple volume visualisations,
-  - Prepare and inspect models used in MT workflows,
-  - Compare input and output datasets in a consistent way.
-
-**matGoFEM _does not_:**
-
-- Distribute or compile GoFEM itself.
-- Implement the full deal.II / GoFEM API in MATLAB.
-
-You still need a **working GoFEM installation** (or access to GoFEM outputs) to produce the mesh and model files that matGoFEM will process.
-
----
-
 ## Requirements
 
 - **MATLAB** R2023b or newer (developed and tested with R2024b).
