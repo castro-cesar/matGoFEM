@@ -310,7 +310,7 @@ function plane = parse_plane(key, val)
             L        = norm(d_xy(1:2));              % segment length (XY)
         
             P0    = [A(1), A(2), 0];
-            label = sprintf('profile A(%.3g,%.3g) - B(%.3g,%.3g)', ...
+            label = sprintf('Profile: A(%.3g,%.3g) - B(%.3g,%.3g)', ...
                             A(1), A(2), B(1), B(2));
         
             pval = NaN;
